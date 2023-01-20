@@ -1,0 +1,278 @@
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 600px;
+    margin-bottom: 130px;
+}
+.portfolio-description{
+    font-size: 20px;
+    color: gray;
+}
+.portfolio-title{
+    font-size: 30px;
+}
+.portfolio-box{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio-titles{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.portfolio-box-row1{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+.portfolio-box-3{
+    width: 300px;
+    height: 200px;
+}
+.portfolio-box-4{
+    width: 300px;
+    height: 400px;
+}
+
+}
+.portfolio-box-row2{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-box-row3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.portfolio-box-1{
+    width: 300px;
+    height: 230px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-image: url(../../../../assets/images/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.portfolio-box-2{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-image: url(../../../../assets/images/portfolio-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-box-3{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-image: url(../../../../assets/images/portfolio-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-box-4{
+    width: 300px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-image: url(../../../../assets/images/portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-box-5{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    background-image: url(../../../../assets/images/portfolio-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.portfolio-box-6{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-image: url(../../../../assets/images/portfolio-6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+    @media screen and (max-width: 1000px) {
+        .portfolio-box-row1{
+            width: 0px;
+        }
+        .portfolio-box-1{
+            background-color: rgb(149, 159, 156);
+            width: 0px;
+            height: 0px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../../assets/images/portfolio-1.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .pad{
+            padding: 10px;
+        }
+        .portfolio-box-2{
+            width: 0px;
+            height: 0px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../../assets/images/portfolio-2.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .portfolio-box-3{
+            width: 300px;
+            height: 200px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../../assets/images/portfolio-3.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .portfolio-box-4{
+            width: 300px;
+            height: 500px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../../assets/images/portfolio-4.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .portfolio-box-5{
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../../assets/images/portfolio-5.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .portfolio-box-6{
+            width: 300px;
+            height: 400px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            background-image: url(../../../../assets/images/portfolio-6.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        }
+
+        @media screen and (max-width: 680px) {
+            .portfolio-box-row1{
+                width: 0px;
+                height: 0px;
+            }
+            .portfolio-box-1{
+                width: 0px;
+                height: 0px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background-image: url(../../../../assets/images/portfolio-1.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .pad{
+                padding: 10px;
+            }
+            .portfolio-box-2{
+                width: 0px;
+                height: 0px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background-image: url(../../../../assets/images/portfolio-2.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+           
+            .portfolio-box-3{
+                width: 300px;
+                height: 300px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background-image: url(../../../../assets/images/portfolio-3.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .portfolio-box-4{
+                width: 300px;
+                height: 300px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background-image: url(../../../../assets/images/portfolio-4.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .portfolio-box-5{
+                width: 0px;
+                height: 0px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background-image: url(../../../../assets/images/portfolio-5.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .portfolio-box-6{
+                width: 0px;
+                height: 0px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                background-image: url(../../../../assets/images/portfolio-6.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            .portfolio-box-row3{
+                width: 0px;
+                height: 0px;
+            }
+            .portfolio-boxes{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100px;
+                height: 600px;
+                margin-bottom: 80px;
+            }
+            }
+
+         

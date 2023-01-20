@@ -1,0 +1,225 @@
+.funfacts {
+    display: flex;
+    justify-content: center;
+}
+
+.funfacts-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../assets/images/funfactsimg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.funfacts-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+    margin-top: 60px;
+}
+
+.funfacts-group1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.funfacts-group2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.funfacts-heading {
+    font-size: 25px;
+    color: white;
+}
+
+.funfacts-description {
+    color: rgb(208, 195, 195);
+}
+
+.funfact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.funfacts-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.funfacts-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.funfacts-logo {
+    font-size: 70px;
+    color: rgb(235, 36, 62);
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.fun-logo1 {
+    font-size: 70px;
+}
+
+.fun-logo3 {
+    font-size: 70px;
+}
+
+.funfact-box {
+    border: 1px solid transparent;
+}
+
+.fun-box-1 {
+    border-right: 1px solid rgb(78, 77, 77);
+    height: 60%;
+}
+
+.fun-box-2 {
+    border-right: 1px solid rgb(78, 77, 77);
+    height: 60%;
+}
+
+.fun-box-3 {
+    border-right: 1px solid rgb(78, 77, 77);
+    height: 60%;
+}
+
+.fun-box-4 {
+    border-right: 1px solid transparent;
+    height: 60%;
+}
+
+.funfacts-text-1 {
+    font-size: 40px;
+    color: white;
+}
+
+.funfacts-text-2 {
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (max-width: 850px) {
+
+    .funfacts-logo {
+        font-size: 70px;
+        color: rgb(235, 36, 62);
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 730px) {
+
+    .funfacts-logo {
+        font-size: 70px;
+        color: rgb(235, 36, 62);
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .funfacts-logo {
+        font-size: 55px;
+        color: rgb(235, 36, 62);
+        margin-right: 40px;
+        margin-left: 45px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .funfacts-logo {
+        font-size: 70px;
+        color: rgb(235, 36, 62);
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .funfacts-logo {
+        font-size: 55px;
+        color: rgb(235, 36, 62);
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .funfacts-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+.fun-box-2 {
+    border-right: none;
+}
+}
+
+@media screen and (max-width: 330px) {
+
+    .funfacts-logo {
+        font-size: 50px;
+        color: rgb(235, 36, 62);
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .funfacts-logo {
+        font-size: 50px;
+        color: rgb(235, 36, 62);
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .funfacts-boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 290px) {
+
+    .funfacts-group1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .funfacts-group2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fun-box-1 {
+        border-right: 1px solid transparent;
+        height: 60%;
+    }
+
+    .fun-box-2 {
+        border-right: 1px solid transparent;
+        height: 60%;
+    }
+
+    .fun-box-3 {
+        border-right: 1px solid transparent;
+        height: 60%;
+    }
+
+    .funfacts-titles {
+        margin-bottom: 20px;
+    }
+
+}

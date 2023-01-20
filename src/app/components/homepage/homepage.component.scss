@@ -1,0 +1,331 @@
+.homepage {
+    background-image: url('../../../assets/images/homeimg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+.emptyspace {
+    height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+.home-box {
+    position: absolute;
+    margin-top: -130px;
+}
+
+.home-innercontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    line-height: 100px;
+}
+
+.home-btns {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.home-smalltext {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.home-boldtext {
+    color: white;
+    font-size: 150px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-btn1 {
+    background-color: rgb(240, 48, 86);
+    border-radius: 25px;
+    color: white;
+    border-color: transparent;
+    padding: 10px;
+    width: 150px;
+    margin-right: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.home-btn2 {
+    background-color: transparent;
+    border-radius: 25px;
+    color: white;
+    border-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1075px) {
+    .home-smalltext {
+        font-size: 40px;
+    }
+
+    .home-boldtext {
+        font-size: 130px;
+    }
+
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .home-smalltext {
+        font-size: 40px;
+    }
+
+    .home-boldtext {
+        font-size: 110px;
+    }
+
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home-smalltext {
+        font-size: 30px;
+    }
+
+    .home-boldtext {
+        font-size: 100px;
+    }
+
+    .home-innercontent {
+        line-height: 80px;
+    }
+
+    .home-content {
+        margin-bottom: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 700px) {
+    .home-smalltext {
+        font-size: 30px;
+    }
+
+    .home-boldtext {
+        font-size: 90px;
+    }
+
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+@media screen and (max-width: 775px) {
+    .home-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .emptyspace {
+        height: 100px;
+        position: relative;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 720px) {
+    .home-smalltext {
+        font-size: 30px;
+    }
+    .home-boldtext {
+        font-size: 80px;
+    }
+    .home-innercontent {
+        line-height: 70px;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .home-smalltext {
+        font-size: 30px;
+    }
+
+    .home-boldtext {
+        font-size: 60px;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .home-smalltext {
+        font-size: 20px;
+    }
+    .home-boldtext {
+        font-size: 50px;
+    }
+    .home-innercontent {
+        line-height: 50px;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .home-smalltext {
+        font-size: 20px;
+    }
+    .home-boldtext {
+        font-size: 40px;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .home-btns {
+        flex-direction: column;
+    }
+    .home-btn1 {
+        margin-bottom: 10px;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .home-boldtext {
+        font-size: 35px;
+    }
+    .home-innercontent {
+        align-items: center;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .home-boldtext {
+        font-size: 30px;
+    }
+    .home-innercontent {
+        align-items: flex-start;
+    }
+    .home-smalltext {
+        font-size: 10px;
+    }
+    .home-content {
+        margin-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .home-box {
+        position: absolute;
+        margin-top: 20px;
+    }
+    .emptyspace {
+        height: 700px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .home-box {
+        position: absolute;
+        margin-top: -15%;
+    }
+    .emptyspace {
+        height: 700px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .emptyspace {
+        height: 60px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .home-box {
+        position: absolute;
+        margin-top: -12%;
+    }
+    .emptyspace {
+        height: 700px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 355px) {
+
+    .emptyspace {
+        height: 70px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .home-box {
+        position: absolute;
+        margin-top: -17%;
+        .emptyspace {
+            height: 700px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width: 355px) {
+        .emptyspace {
+            height: 70px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+        .home-box {
+            position: absolute;
+            margin-top: -17%;
+        }
+    }
+}

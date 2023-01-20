@@ -1,0 +1,25 @@
+.introvideo{
+    display: flex;
+    justify-content: center;
+}
+.introvideo-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../../../assets/images/introvideo-img1.jpg);
+    height: 300px;
+}
+.introvideo-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introvideo-text{
+    font-size: 30px;
+    color: white;
+}
+.introvideo-logo{
+    font-size: 80px;
+    color: rgb(223, 28, 28);
+}

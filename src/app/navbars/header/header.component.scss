@@ -1,0 +1,87 @@
+*{
+    font-family: 'Hind', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header-logo{
+   color: rgb(235, 64, 95);
+   padding: 10px;
+}
+.navbar-brand{
+    margin-right: 70px;
+}
+.navbar{
+    position: fixed;
+    z-index: 2;
+    margin-top: 25px;
+    border: 1px solid white;
+    border-color: rgb(179, 179, 179);
+    padding: 15px;
+ 
+}
+.nav-text{
+    color: white;
+}
+.navitems{
+    margin-left: 100px;
+}
+.nav-link{
+    margin-right: 15px;
+    font-weight: 800;
+}
+.navbtn{
+    border-radius: 0px;
+    font-weight: 900;
+    color: white;
+    background-color: rgb(240, 48, 86);
+    border-color: transparent;
+    padding: 8px;
+}
+
+.navbar-color-change{
+    border: transparent;
+   background-image: url(../../../assets/images/funfacts-img.jpg);
+    position: fixed;
+    z-index: 5;
+    margin-top: 0px;
+    padding: 15px;
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+
+.actives .nav-text{
+  color: red;
+  font-weight: 800;
+ }
+
+ @media screen and (max-width: 993px) {
+    .header{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+      
+        
+    }
+    .navbar{
+        position: fixed;
+        width: 100%;
+        margin-top: 0px;
+        border: none;
+        border-color: rgb(179, 179, 179);
+        background-image: url(../../../assets/images/navbarcolor.png);
+     
+    }
+    .nav-text{
+        color: black;
+    }
+    .navbtn{
+        color: black;
+    }
+  
+}

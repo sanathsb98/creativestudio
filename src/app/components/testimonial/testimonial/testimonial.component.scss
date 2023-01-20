@@ -1,0 +1,202 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-description {
+    color: gray;
+}
+
+.testimonial-heading {
+    font-size: 30px;
+}
+
+.testimonial-titles {
+    margin-top: 70px;
+}
+
+.testimonial-description {
+    font-size: 25px;
+}
+
+.testimonial-titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.testimonial-comment {
+    color: rgb(86, 82, 82);
+    text-align: left;
+}
+
+.testimonial-reviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.testimonial-review-1 {
+    position: relative;
+    width: 500px;
+    border: 1px solid rgb(237, 228, 228);
+    padding: 20px;
+    margin-right: 70px;
+    position: relative;
+}
+
+.testimonial-review-2 {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(237, 228, 228);
+    align-items: center;
+    width: 500px;
+    padding: 20px;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    margin-top: 15px;
+    margin-left: 40px;
+    font-size: 17px;
+}
+
+.testimonial-comment {
+    margin-left: 40px;
+    text-align: justify;
+}
+
+.testimonial-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#testimonial-img {
+    width: 80px;
+}
+
+@media screen and (max-width: 820px) {
+    .testimonial-reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .testimonial-review-1 {
+        position: relative;
+        width: 500px;
+        border: 1px solid rgb(237, 228, 228);
+        padding: 20px;
+        margin-right: 0px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .testimonial-reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .testimonial-review-1 {
+        position: relative;
+        width: 300px;
+        border: 1px solid rgb(237, 228, 228);
+        padding: 20px;
+        margin-right: 0px;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .testimonial-review-2 {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid rgb(237, 228, 228);
+        align-items: center;
+        width: 300px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .testimonial-reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 100px;
+    }
+
+    .testimonial-review-1 {
+        position: relative;
+        width: 250px;
+        border: 1px solid rgb(237, 228, 228);
+        padding: 20px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+
+    .testimonial-review-2 {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid rgb(237, 228, 228);
+        align-items: center;
+        width: 250px;
+        padding: 20px;
+    }
+
+    .testimonial-image {
+        width: 80px;
+        height: 80px;
+        border-radius: 100px;
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial-author {
+        font-weight: 600;
+        margin-top: 15px;
+        margin-left: 0px;
+        font-size: 17px;
+    }
+
+    .testimonial-comment {
+        margin-left: 0px;
+        text-align: justify;
+        margin-top: 30px;
+    }
+}

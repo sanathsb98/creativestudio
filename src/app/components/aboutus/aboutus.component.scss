@@ -1,0 +1,117 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 5px;
+}
+.home-intro {
+    position: absolute;
+    background-color: white;
+}
+.aboutus-contentbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.about-content {
+    display: flex;
+    width: 1050px;
+}
+.about-img {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 300px;
+    border: 1px solid rgb(179, 179, 179);
+    padding: 3px;
+}
+#about-img {
+    width: 300px;
+}
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 30px;
+}
+.description-text {
+    margin-top: 15px;
+}
+.about-title2 {
+    font-size: 30px;
+}
+.about-title1 {
+    font-size: 20px;
+    color: rgb(123, 117, 117);
+}
+.des-titles {
+    line-height: 30px;
+}
+.des-text {
+    margin-bottom: 10px;
+    color: rgb(123, 117, 117);
+}
+
+
+@media screen and (max-width: 775px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .aboutus-contentbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+
+    .aboutus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-top: 10px;
+        padding: 0px 20px;
+    }
+
+    .about-img {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        height: 300px;
+        border: transparent;
+        padding: 3px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .aboutus-contentbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 355px) {
+    #about-img {
+        width: 100%;
+    }
+    .aboutus-contentbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 800px;
+    }
+}

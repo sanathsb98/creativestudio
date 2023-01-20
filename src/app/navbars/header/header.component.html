@@ -1,0 +1,37 @@
+<div class="header">
+<nav  [class.navbar-color-change] = "on_color_change" class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <a class="navbar-brand" href="#"><i class="bi bi-amd header-logo"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+        <a routerLink="/" [routerLinkActive]="'actives'" [routerLinkActiveOptions]="{exact:true}" class="nav-link" href="#"><div class="nav-text">Home</div></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link"  href="#aboutus"><div class="nav-text">About</div></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link"  href="#ourservice"><div class="nav-text">Service</div></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#ourportfolio"><div class="nav-text">Portfolio</div></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#ourangels"><div class="nav-text">Team</div></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#testimonial"><div class="nav-text">Testimonial</div></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#ourblog"><div class="nav-text">Blog</div></a>
+      </li>
+      <li class="nav-item active">
+          <button type="button" class="btn btn-sm btn-light navbtn">Components</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
